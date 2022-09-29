@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/woman-7200534_1920.jpg);
+    background-size: cover;
+    background-position-x: +20%;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    color: purple;
+}
+a, label {
+    font-size:.9;  
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.login-container {
+    margin-right: 15%;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px 30px;
+    text-align: left; 
+    border-radius: 10px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label, input {
+    width: 100%;
+    text-align: left;
+}
+
+.register {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #666;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: #666
+}
+
+input:focus {
+    border-bottom: 2px solid purple;
+}
+
+.forgot {
+    text-align: right;
+}
+
+input[type ="submit"] {
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+    background-color: #bbb;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type ="submit"]:hover{
+    color: #fff;
+    background-color: purple;
+    transition: .5s;
+}
