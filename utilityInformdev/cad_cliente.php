@@ -3,11 +3,12 @@ function limpar_texto($str){
     return preg_replace("/[^0-9]/", "", $str); 
 }
 
+ $erro = false;
 
 if(count($_POST) > 0){
 
     include('conexao.php');
-    $erro = false;
+   
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $nascimento = $_POST['nascimento'];
